@@ -19,7 +19,6 @@ def init_replyer_prompt():
 尽量简短一些。{keywords_reaction_prompt}
 请注意把握聊天内容，不要回复的太有条理。
 {reply_style}
-请注意不要输出多余内容(包括不必要的前后缀，冒号，括号，表情包，at或 @等 )，只输出发言内容就好。
 最好一次对一个话题进行回复，免得啰嗦或者回复内容太乱。
 现在，你说：""",
         "replyer_prompt_0",
@@ -42,7 +41,6 @@ def init_replyer_prompt():
 {keywords_reaction_prompt}
 请注意把握聊天内容。
 {reply_style}
-请注意不要输出多余内容(包括不必要的前后缀，冒号，括号，at或 @等 )，只输出发言内容就好。
 现在，你说：""",
         "replyer_prompt",
     )
