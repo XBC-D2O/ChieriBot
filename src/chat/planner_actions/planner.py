@@ -385,7 +385,7 @@ class ActionPlanner:
         )
 
         # 如果有强制回复消息，确保回复该消息
-        if force_reply_message:
+        if force_reply_message and False:# 暂时禁用强制回复
             # 检查是否已经有回复该消息的 action
             has_reply_to_force_message = False
             for action in actions:

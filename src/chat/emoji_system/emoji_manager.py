@@ -971,7 +971,7 @@ class EmojiManager:
                     1. 必须符合"{global_config.emoji.filtration_prompt}"的要求
                     2. 不能是色情、暴力、等违法违规内容，必须符合公序良俗
                     3. 不能是任何形式的截图，聊天记录或视频截图
-                    4. 不要出现5个以上文字
+                    4. 不要出现超过一句话的文字内容
                     请回答这个表情包是否满足上述要求，是则回答是，否则回答否，不要出现任何其他内容
                 '''
                 content, _ = await self.vlm.generate_response_for_image(
