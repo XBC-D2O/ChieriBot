@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>麦麦 MaiBot <sub><small>MaiCore</small></sub></h1>
+  <h1>基于麦麦 MaiBot爆改的雪菜,是硅基生命啦 <sub><small>MaiCore</small></sub></h1>
   
   <!-- Badges Row -->
   <p>
